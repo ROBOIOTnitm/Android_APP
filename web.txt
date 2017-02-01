@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<head>
+<style>
+.button_green {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #3e8e41;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button_green:hover {background-color: #3e8e41}
+
+.button_green:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+</head>
+<head>
+<style>
+.button_red {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #FF0000;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button_red:hover {background-color: #FF0000}
+
+.button_red:active {
+  background-color: #FF0000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+</head>
+<body>
+<h1> SMART HOME WEB PORTAL </h1>
+<h6>Designed and developed by Abhishek Acharya</h6>
+<h2>SWITCH1:</h2>
+<a href=\"/ID0:1=ON\"><button class ="button_green" >ON</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"/ID0:1=OFF\"><button class = "button_red">OFF</button></a><br><br>
+
+<h2>SWITCH2:</h2>
+<a href=\"/ID0:2=ON\"><button class ="button_green" >ON</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"/ID0:2=OFF\"><button class = "button_red">OFF</button></a><br><br>
+
+<h2>SWITCH3:</h2>
+<a href=\"/ID0:3=ON\"><button class ="button_green" >ON</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"/ID0:3=OFF\"><button class = "button_red">OFF</button></a><br><br>
+
+<h2>SWITCH4:</h2>
+<a href=\"/ID0:4=ON\"><button class ="button_green" >ON</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"/ID0:4=OFF\"><button class = "button_red">OFF</button></a><br><br>
+</body>
+</html>
